@@ -3,7 +3,7 @@ import java.util.List;
 public class InsertionSort implements Sorting<Integer> {
 
     @Override
-    public void sort(List<Integer> nums) {   // [ 2 6 1 4 5 ]
+    public void sort(List<Integer> nums) {
 
         for (int i = 1; i < nums.size(); i++ ) {
             int key = nums.get(i);
